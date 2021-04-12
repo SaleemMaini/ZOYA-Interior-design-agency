@@ -352,7 +352,6 @@ body {
 }
 .about .about-content .text p:first-of-type {
     color: var(--secandory-color);
-    width: 75%;
     font-weight: bold;
     line-height: 2;
     margin-bottom: 20px;
@@ -365,8 +364,6 @@ body {
 .about .about-content .text p:last-of-type {
     line-height: 2;
     color: #777;
-    width: 75%;
-
 }
 /* End About Section */
 /* Start Contact */
