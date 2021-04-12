@@ -1,2 +1,2 @@
-# ZOYA---Interior-design-agency
+# ZOYA-Interior-design-agency
 Website for interior design agency
