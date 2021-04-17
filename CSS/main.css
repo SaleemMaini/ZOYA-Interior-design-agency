@@ -67,7 +67,7 @@ body {
 /* End Global Rules */
 /* Start Header */
 .header {
-    padding: 8px;
+    padding: 10px;
     background-color: var(--secandory-color);
 }
 .header .container {
@@ -77,6 +77,10 @@ body {
 }
 .header .logo {
     width: 30px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: 500;
 }
 .header .links {
     position: relative;
@@ -148,7 +152,7 @@ body {
 .landing {
     background-image: url(../img/4.jpg);
     background-size: cover;
-    height: calc(100vh - 46px);
+    height: calc(100vh - 40px);
     position: relative; 
 }
 .landing .intro-text {
@@ -192,6 +196,7 @@ body {
 .features .feat h3 {
     font-weight: 800;
     margin: 30px 0;
+    color: var(--secandory-color);
 }
 .features .feat p {
     line-height: 1.8;
@@ -230,6 +235,7 @@ body {
 }
 .services .services-content .srv .text h3 {
     margin: 0 0 20px;
+    color: var(--secandory-color);
 }
 .services .services-content .srv .text p {
     color: #444;
@@ -276,12 +282,19 @@ body {
 }
 .portfolio .portfolio-content .card img {
     max-width: 100%;
+    transition: .3s;
+}
+.portfolio .portfolio-content .card img:hover {
+    cursor: pointer;
+    filter: contrast(125%);
+    transition: .3s;
 }
 .portfolio .portfolio-content .card .info {
     padding: 20px;
 } 
 .portfolio .portfolio-content .card .info h3 {
     margin: 0;
+    color: var(--secandory-color);
 }
 .portfolio .portfolio-content .card .info p {
     color: #777;
